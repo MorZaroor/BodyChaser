@@ -5,8 +5,11 @@ using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField, Header("ˆÚ“®‘¬“x")]
-    private float _speed;
+    [SerializeField] float speed;
+    [SerializeField, Header("c‚ÌˆÚ“®‘¬“x")]
+    private float _tate_speed;
+    [SerializeField, Header("‰¡‚ÌˆÚ“®‘¬“x")]
+    private float _yoko_speed;
 
     private Vector2 _inputVelocity;
     private Rigidbody2D _rigid;
@@ -22,11 +25,19 @@ public class Player : MonoBehaviour
     void Update()
     {
         _Move();
+        float moveX = Input.GetAxis("Horizontal") * Time.deltaTime * speed;
+        float moveY = Input.GetAxis("Vertical") * Time.deltaTime * speed;
+
+        transform.position = new Vector2(
+            transform.position.x,
+            Mathf.Clamp(transform.position.y + moveY, -8.5f, 8.5f)
+        );
+        transform.position += Vector3.right * _yoko_speed * Time.deltaTime;
     }
 
     private void _Move()
     {
-        _rigid.velocity = _inputVelocity * _speed;
+        _rigid.velocity = _inputVelocity * _tate_speed;
     }
 
     public void OnMove(InputAction.CallbackContext context)
