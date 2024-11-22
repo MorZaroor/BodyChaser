@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameOverCount : MonoBehaviour
 {
     [SerializeField] float Limit = 70; //GameOverまでの時間
-    float count;    //時間カウント
+    public float count;    //時間カウント
 
     public GameClear goal;
 
@@ -33,6 +33,7 @@ public class GameOverCount : MonoBehaviour
         if(count >= Limit)
         {
             SceneManager.LoadScene("GameOver");
+            count = 0;
         }
     }
 
