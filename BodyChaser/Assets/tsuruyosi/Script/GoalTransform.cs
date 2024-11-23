@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class GoalTransform : MonoBehaviour
 {
@@ -13,8 +14,6 @@ public class GoalTransform : MonoBehaviour
     float pos;  //ゴールの位置
     Vector3 left_pos;
     Vector3 right_pos;
-    public float moveDuration = 20f;  // 20秒間で移動する
-    private Vector3 startPosition;  // 初期位置
     public GameOverCount time;
 
     void Start()
@@ -34,7 +33,6 @@ public class GoalTransform : MonoBehaviour
         else if(time.count > 50 && time.count <= 70)
         {
             SecondLocation();
-            GoalPos();
         }
     }
 
@@ -44,28 +42,11 @@ public class GoalTransform : MonoBehaviour
         right_pos = right.transform.position;
 
         math = (Mathf.Abs(left_pos.x) - right_pos.x);
-        Debug.Log(math);
     }
 
     private void SecondLocation()
     {
-        startPosition = transform.position;
-        float timeElapsed = time.count-50;                                                                                                                                                                                                                                                          
-        if(timeElapsed <= moveDuration)
-        {
-            float t = timeElapsed / moveDuration; // 0から1の間で進行具合を計算
-            // 画面座標からワールド座標に変換
-            Vector3 worldEndPosition = Camera.main.ScreenToWorldPoint(right_pos);
-            worldEndPosition.z = transform.position.z; // Z軸はそのままにする
-            transform.position = Vector3.Lerp(startPosition, worldEndPosition, t);
-        }
-        else
-        {
-            // 終了時間に達したら、右端に固定
-            transform.position = Camera.main.ScreenToWorldPoint(right_pos);
-            transform.position = new Vector3
-                (transform.position.x, startPosition.y, transform.position.z);
-        }
+        this.transform.DOMove(new Vector3(right_pos.x,0f,0f),20f);
     }
 
     private void GoalPos()
@@ -75,7 +56,7 @@ public class GoalTransform : MonoBehaviour
         transform.position = position;
     }
 
-    private void Condition()
+    private void Condition()//ゴールの移動する位置　条件
     {
         if (left_pos.x < 1)
         {
@@ -100,7 +81,7 @@ public class GoalTransform : MonoBehaviour
             pos = Mathf.Abs(math);
         }
 
-    }//ゴールの移動する位置　条件
+    }
 
 
 }

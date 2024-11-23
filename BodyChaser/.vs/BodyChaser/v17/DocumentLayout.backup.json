@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Github\\BodyChaser\\BodyChaser\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|d:\\github\\bodychaser\\bodychaser\\assets\\hiroki\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|solutionrelative:assets\\hiroki\\script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\bodychaser\\bodychaser\\assets\\tsuruyosi\\plugins\\demigiant\\dotween\\dotween.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|solutionrelative:assets\\tsuruyosi\\plugins\\demigiant\\dotween\\dotween.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\BodyChaser\\BodyChaser\\Library\\PackageCache\\com.unity.cinemachine@2.10.3\\Runtime\\Behaviours\\CinemachineBrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.cinemachine@2.10.3\\Runtime\\Behaviours\\CinemachineBrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\bodychaser\\bodychaser\\assets\\tsuruyosi\\script\\goaltransform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|solutionrelative:assets\\tsuruyosi\\script\\goaltransform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|D:\\Github\\BodyChaser\\BodyChaser\\assets\\tsruyosi\\scripts\\gameovertime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|solutionrelative:assets\\tsruyosi\\scripts\\gameovertime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\assets\\tsuruyosi\\script\\gameclear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|solutionrelative:assets\\tsuruyosi\\script\\gameclear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\assets\\tsuruyosi\\script\\gameovercount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|solutionrelative:assets\\tsuruyosi\\script\\gameovercount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,52 +26,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CinemachineBrain.cs",
-              "DocumentMoniker": "D:\\Github\\BodyChaser\\BodyChaser\\Library\\PackageCache\\com.unity.cinemachine@2.10.3\\Runtime\\Behaviours\\CinemachineBrain.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.cinemachine@2.10.3\\Runtime\\Behaviours\\CinemachineBrain.cs",
-              "ToolTip": "D:\\Github\\BodyChaser\\BodyChaser\\Library\\PackageCache\\com.unity.cinemachine@2.10.3\\Runtime\\Behaviours\\CinemachineBrain.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.cinemachine@2.10.3\\Runtime\\Behaviours\\CinemachineBrain.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T12:19:44.826Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Player.cs",
-              "DocumentMoniker": "D:\\Github\\BodyChaser\\BodyChaser\\Assets\\HIroki\\Script\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\HIroki\\Script\\Player.cs",
-              "ToolTip": "D:\\Github\\BodyChaser\\BodyChaser\\Assets\\HIroki\\Script\\Player.cs",
-              "RelativeToolTip": "Assets\\HIroki\\Script\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T10:23:37.755Z",
-              "EditorCaption": ""
+              "Title": "DOTween.dll",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Plugins\\Demigiant\\DOTween\\DOTween.dll",
+              "RelativeDocumentMoniker": "Assets\\tsuruyosi\\Plugins\\Demigiant\\DOTween\\DOTween.dll",
+              "ToolTip": "C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Plugins\\Demigiant\\DOTween\\DOTween.dll",
+              "RelativeToolTip": "Assets\\tsuruyosi\\Plugins\\Demigiant\\DOTween\\DOTween.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2024-11-23T06:22:39.043Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GameOverTime.cs",
-              "DocumentMoniker": "D:\\Github\\BodyChaser\\BodyChaser\\Assets\\tsruyosi\\Scripts\\GameOverTime.cs",
-              "RelativeDocumentMoniker": "Assets\\tsruyosi\\Scripts\\GameOverTime.cs",
-              "ToolTip": "D:\\Github\\BodyChaser\\BodyChaser\\Assets\\tsruyosi\\Scripts\\GameOverTime.cs",
-              "RelativeToolTip": "Assets\\tsruyosi\\Scripts\\GameOverTime.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Title": "GameClear.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Script\\GameClear.cs",
+              "RelativeDocumentMoniker": "Assets\\tsuruyosi\\Script\\GameClear.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Script\\GameClear.cs",
+              "RelativeToolTip": "Assets\\tsuruyosi\\Script\\GameClear.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T14:24:00.468Z"
+              "WhenOpened": "2024-11-22T11:17:32.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameOverCount.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Script\\GameOverCount.cs",
+              "RelativeDocumentMoniker": "Assets\\tsuruyosi\\Script\\GameOverCount.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Script\\GameOverCount.cs",
+              "RelativeToolTip": "Assets\\tsuruyosi\\Script\\GameOverCount.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA8wAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T11:17:28.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GoalTransform.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Script\\GoalTransform.cs",
+              "RelativeDocumentMoniker": "Assets\\tsuruyosi\\Script\\GoalTransform.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Script\\GoalTransform.cs",
+              "RelativeToolTip": "Assets\\tsuruyosi\\Script\\GoalTransform.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T08:56:38.741Z",
+              "EditorCaption": ""
             }
           ]
         }

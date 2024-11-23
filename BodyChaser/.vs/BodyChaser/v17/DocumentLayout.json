@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\bodychaser\\bodychaser\\assets\\tsuruyosi\\script\\goaltransform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\assets\\tsuruyosi\\script\\goaltransform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|solutionrelative:assets\\tsuruyosi\\script\\goaltransform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\bodychaser\\bodychaser\\assets\\tsuruyosi\\script\\gameovercount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|solutionrelative:assets\\tsuruyosi\\script\\gameovercount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\bodychaser\\bodychaser\\assets\\tsuruyosi\\plugins\\demigiant\\dotween\\dotween.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|solutionrelative:assets\\tsuruyosi\\plugins\\demigiant\\dotween\\dotween.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\bodychaser\\bodychaser\\assets\\tsuruyosi\\script\\gameclear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\assets\\tsuruyosi\\script\\gameclear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|solutionrelative:assets\\tsuruyosi\\script\\gameclear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\assets\\tsuruyosi\\script\\gameovercount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|solutionrelative:assets\\tsuruyosi\\script\\gameovercount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +26,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DOTween.dll",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Plugins\\Demigiant\\DOTween\\DOTween.dll",
+              "RelativeDocumentMoniker": "Assets\\tsuruyosi\\Plugins\\Demigiant\\DOTween\\DOTween.dll",
+              "ToolTip": "C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Plugins\\Demigiant\\DOTween\\DOTween.dll",
+              "RelativeToolTip": "Assets\\tsuruyosi\\Plugins\\Demigiant\\DOTween\\DOTween.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2024-11-23T06:22:39.043Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -34,12 +49,11 @@
               "RelativeToolTip": "Assets\\tsuruyosi\\Script\\GameClear.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:17:32.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T11:17:32.189Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "GameOverCount.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Script\\GameOverCount.cs",
               "RelativeDocumentMoniker": "Assets\\tsuruyosi\\Script\\GameOverCount.cs",
@@ -47,8 +61,7 @@
               "RelativeToolTip": "Assets\\tsuruyosi\\Script\\GameOverCount.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAA8wAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:17:28.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T11:17:28.973Z"
             },
             {
               "$type": "Document",
@@ -58,7 +71,7 @@
               "RelativeDocumentMoniker": "Assets\\tsuruyosi\\Script\\GoalTransform.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Script\\GoalTransform.cs",
               "RelativeToolTip": "Assets\\tsuruyosi\\Script\\GoalTransform.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAxwB8AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T08:56:38.741Z",
               "EditorCaption": ""
