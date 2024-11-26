@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/rakougetu/scenes/start.unity
     guid: 93df53c7952f3a94386ae7488325a6bc
+  - enabled: 1
+    path: Assets/rakougetu/scenes/gaming.unity
+    guid: 7381cd05185a624478b8e6540a84d5fe
   - enabled: 0
     path: Assets/tsruyosi/Scene/TsuruyosiScene.unity
     guid: d3a65168d2ac49c458c35beb308c85d1
