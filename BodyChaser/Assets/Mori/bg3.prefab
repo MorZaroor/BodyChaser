@@ -145,6 +145,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tatetateno
       objectReference: {fileID: 0}
+    - target: {fileID: 7178139777201064853, guid: 1f4c3384897ab41f6bf54be2ee3ecdce, type: 3}
+      propertyPath: m_SortingLayer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178139777201064853, guid: 1f4c3384897ab41f6bf54be2ee3ecdce, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -726540107
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
