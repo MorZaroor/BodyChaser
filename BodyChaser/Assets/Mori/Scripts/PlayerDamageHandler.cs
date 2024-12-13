@@ -10,6 +10,7 @@ public class PlayerDamageHandler : MonoBehaviour
 
     private bool isInvincible = false;
     private SpriteRenderer spriteRenderer;
+    public SpeedMeter speedMeter;
 
     void Start()
     {
@@ -27,15 +28,29 @@ public class PlayerDamageHandler : MonoBehaviour
     void TakeDamage()
     {
         Debug.Log("Player took damage!");
-        StartCoroutine(InvincibilityCoroutine());
+        speedMeter.HitObstacle();
+        StartCoroutine(InvincibilityCoroutine(invincibilityDuration));
     }
 
-    IEnumerator InvincibilityCoroutine()
+    public void ActivateInvincibility(float duration)
+    {
+        if (!isInvincible)
+        {
+            StartCoroutine(InvincibilityCoroutine(duration));
+        }
+        else
+        {
+            StopAllCoroutines();
+            StartCoroutine(InvincibilityCoroutine(duration));
+        }
+    }
+
+    IEnumerator InvincibilityCoroutine(float duration)
     {
         isInvincible = true;
         float elapsedTime = 0f;
 
-        while (elapsedTime < invincibilityDuration)
+        while (elapsedTime < duration)
         {
             spriteRenderer.enabled = !spriteRenderer.enabled;
             yield return new WaitForSeconds(flickerInterval);
