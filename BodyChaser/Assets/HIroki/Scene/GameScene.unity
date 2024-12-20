@@ -943,8 +943,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff4a2b0e0dab4e0448ea5d52d66857ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Tate_speed: 0
-  _Yoko_speed: 0
+  target: {fileID: 1339245625}
+  someMultiplier: -6
+  _Tate_speed: 10
+  _Yoko_speed: 10
 --- !u!58 &1775632095
 CircleCollider2D:
   m_ObjectHideFlags: 0
