@@ -1,5 +1,5 @@
-using System.Collections;
 using UnityEngine;
+using System.Collections;
 
 public class SpeedMeter : MonoBehaviour
 {
@@ -7,95 +7,102 @@ public class SpeedMeter : MonoBehaviour
     {
         Green,
         Yellow,
-        Red
+        Red,
+        Boost
     }
 
     [SerializeField] private PlayerMovement playerScript;
     [SerializeField] private Transform needleTransform;
-    [SerializeField] private float meterIncreaseSpeed = 10f;
+    [SerializeField] private float meterIncreasePerMash = 2.5f;
+    [SerializeField] private float meterDecreaseRate = 2f; // Rate at which the meter decreases per second
     [SerializeField] private float greenSpeedMultiplier = 1f;
     [SerializeField] private float yellowSpeedMultiplier = 1.5f;
     [SerializeField] private float redSpeedMultiplier = 2f;
+    [SerializeField] private float boostSpeedMultiplier = 3f;
 
     private SpeedLevel currentLevel = SpeedLevel.Green;
     private float currentRotation = 55f;
     private float baseSpeed;
-    private float normalMeterIncreaseSpeed;
+    private float normalMeterIncreasePerMash;
     private bool isSpeedBoosted = false;
 
     private void Start()
     {
         baseSpeed = playerScript._Yoko_speed;
-        normalMeterIncreaseSpeed = meterIncreaseSpeed;
+        normalMeterIncreasePerMash = meterIncreasePerMash;
     }
 
     private void Update()
     {
+        CheckSpacebarMash();
+        DecreaseMeter();
         UpdateMeter();
-        CheckLevelAdvance();
+        CheckLevelChange();
+    }
+
+    private void CheckSpacebarMash()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            currentRotation -= meterIncreasePerMash;
+        }
+    }
+
+    private void DecreaseMeter()
+    {
+        currentRotation += meterDecreaseRate * Time.deltaTime;
     }
 
     private void UpdateMeter()
     {
-        if (currentLevel == SpeedLevel.Green && currentRotation > 20f)
-        {
-            currentRotation -= meterIncreaseSpeed * Time.deltaTime;
-        }
-        else if (currentLevel == SpeedLevel.Yellow && currentRotation > -17f)
-        {
-            currentRotation -= meterIncreaseSpeed * Time.deltaTime;
-        }
-        else if (currentLevel == SpeedLevel.Red && currentRotation > -55f)
-        {
-            currentRotation -= meterIncreaseSpeed * Time.deltaTime;
-        }
-
+        currentRotation = Mathf.Clamp(currentRotation, -55f, 55f);
         needleTransform.rotation = Quaternion.Euler(0, 0, currentRotation);
     }
 
-    private void CheckLevelAdvance()
+    private void CheckLevelChange()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        SpeedLevel newLevel;
+
+        if (currentRotation <= -53f && isSpeedBoosted)
         {
-            if (currentLevel == SpeedLevel.Green && currentRotation <= 20f)
-            {
-                AdvanceToLevel(SpeedLevel.Yellow);
-            }
-            else if (currentLevel == SpeedLevel.Yellow && currentRotation <= -17f)
-            {
-                AdvanceToLevel(SpeedLevel.Red);
-            }
+            newLevel = SpeedLevel.Boost;
+        }
+        else if (currentRotation <= -17f)
+        {
+            newLevel = SpeedLevel.Red;
+        }
+        else if (currentRotation <= 20f)
+        {
+            newLevel = SpeedLevel.Yellow;
+        }
+        else
+        {
+            newLevel = SpeedLevel.Green;
+        }
+
+        if (newLevel != currentLevel)
+        {
+            ChangeLevel(newLevel);
         }
     }
 
-    private void AdvanceToLevel(SpeedLevel newLevel)
+    private void ChangeLevel(SpeedLevel newLevel)
     {
         currentLevel = newLevel;
         UpdatePlayerSpeed();
-
-        switch (newLevel)
-        {
-            case SpeedLevel.Yellow:
-                currentRotation = 17f;
-                break;
-            case SpeedLevel.Red:
-                currentRotation = -20f;
-                break;
-        }
     }
 
     public void HitObstacle()
     {
         if (currentLevel == SpeedLevel.Yellow)
         {
-            AdvanceToLevel(SpeedLevel.Green);
             currentRotation = 55f;
         }
-        else if (currentLevel == SpeedLevel.Red)
+        else if (currentLevel == SpeedLevel.Red || currentLevel == SpeedLevel.Boost)
         {
-            AdvanceToLevel(SpeedLevel.Yellow);
             currentRotation = 17f;
         }
+        CheckLevelChange();
     }
 
     private void UpdatePlayerSpeed()
@@ -105,6 +112,7 @@ public class SpeedMeter : MonoBehaviour
             SpeedLevel.Green => greenSpeedMultiplier,
             SpeedLevel.Yellow => yellowSpeedMultiplier,
             SpeedLevel.Red => redSpeedMultiplier,
+            SpeedLevel.Boost => boostSpeedMultiplier,
             _ => greenSpeedMultiplier
         };
 
@@ -127,11 +135,13 @@ public class SpeedMeter : MonoBehaviour
     private IEnumerator SpeedBoostCoroutine(float duration)
     {
         isSpeedBoosted = true;
-        meterIncreaseSpeed *= 2;
+        meterIncreasePerMash *= 2;
+        CheckLevelChange();
 
         yield return new WaitForSeconds(duration);
 
-        meterIncreaseSpeed = normalMeterIncreaseSpeed;
+        meterIncreasePerMash = normalMeterIncreasePerMash;
         isSpeedBoosted = false;
+        CheckLevelChange();
     }
 }
