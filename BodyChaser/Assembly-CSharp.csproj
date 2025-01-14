@@ -67,9 +67,10 @@
     <Compile Include="Assets\tsuruyosi\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
     <Compile Include="Assets\Rin\UIManager.cs" />
     <Compile Include="Assets\tsuruyosi\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\Process.cs" />
+    <Compile Include="Assets\Rin\0\GameManager.cs" />
     <Compile Include="Assets\tsuruyosi\Script\GameOverCount.cs" />
     <Compile Include="Assets\Mori\Scripts\PlayerDamageHandler.cs" />
-    <Compile Include="Assets\Rin\GameManager.cs" />
     <Compile Include="Assets\rakougetu\PlayMath.cs" />
     <Compile Include="Assets\Mori\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Mori\Scripts\LevelManager.cs" />
@@ -82,6 +83,8 @@
     <Compile Include="Assets\HIroki\Script\SpeedParameter.cs" />
     <Compile Include="Assets\Mori\Scripts\ObstacleManager.cs" />
     <Compile Include="Assets\tsuruyosi\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
+    <Compile Include="Assets\Mori\Scripts\GoalIndicator.cs" />
+    <Compile Include="Assets\Mori\Scripts\GoalManager.cs" />
     <Compile Include="Assets\tsuruyosi\Script\GoalTransform.cs" />
     <Compile Include="Assets\tsuruyosi\TestMaterial\Script\playeridou.cs" />
     <Compile Include="Assets\Mori\Scripts\SpeedMeter.cs" />
