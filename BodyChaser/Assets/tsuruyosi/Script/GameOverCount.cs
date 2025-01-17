@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class GameOverCount : MonoBehaviour
 {
-    [SerializeField] float Limit = 70; //GameOverまでの時間
+    public float Limit = 100; //GameOverまでの時間
     public float count;    //時間カウント
+    public bool iscount;    //UIイベント管理
 
     public GameClear goal;
 
@@ -22,6 +23,7 @@ public class GameOverCount : MonoBehaviour
         if(goal.Clear == false)
         {
             OverLimit();
+            EventIS();
         }
     }
 
@@ -34,6 +36,17 @@ public class GameOverCount : MonoBehaviour
         {
             SceneManager.LoadScene("GameOver");
             count = 0;
+        }
+    }
+
+    public void EventIS()
+    {
+        if(count >= 50 && count <= 53)
+        {
+            iscount = true;
+        }else
+        {
+            iscount = false;
         }
     }
 

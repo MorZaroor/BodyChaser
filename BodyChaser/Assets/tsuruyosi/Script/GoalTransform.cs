@@ -14,29 +14,34 @@ public class GoalTransform : MonoBehaviour
     float pos;  //ゴールの位置
     Vector3 left_pos;
     Vector3 right_pos;
-    public GameOverCount time;
+    GameOverCount gameovercount;
 
     void Start()
     {
         //スプリクト取得
-        time = gameObject.GetComponent<GameOverCount>();
+        gameovercount = gameObject.GetComponent<GameOverCount>();
     }
 
     void Update()
     {
-        if(time.count <= 50)
+        right_pos = right.transform.position;
+        this.transform.DOMove(new Vector3(right_pos.x, 0f, 0f), 85f);
+    }
+
+    //Updateの中身
+    /*if(gameovercount.count <= 50)
         {
             FirstLocation();
             Condition();
             GoalPos();
         }
-        else if(time.count > 50 && time.count <= 70)
+        else if(gameovercount.count >= 50 && gameovercount.count <= gameovercount.Limit)
         {
             SecondLocation();
-        }
-    }
+        }*/
 
-    private void FirstLocation()
+
+    /*private void FirstLocation()
     {
         left_pos = left.transform.position;
         right_pos = right.transform.position;
@@ -79,9 +84,6 @@ public class GoalTransform : MonoBehaviour
         {
             math = -6.5f;
             pos = Mathf.Abs(math);
-        }
-
-    }
-
+        }*/
 
 }
