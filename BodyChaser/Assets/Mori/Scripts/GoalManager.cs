@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using System.Runtime.CompilerServices;
 
 public class GoalManager : MonoBehaviour
 {
@@ -11,7 +12,8 @@ public class GoalManager : MonoBehaviour
     public float gameTime = 100f;
     public Transform playerTransform;
     private float currentSpeed;
-    private float timer;
+    public float timer;
+    public bool iscount = false;
     public TextMeshProUGUI timerText;
 
     void Start()
@@ -35,6 +37,14 @@ public class GoalManager : MonoBehaviour
         if (timer <= 0)
         {
             GameOver();
+        }
+        if (timer >= 50 && timer <= 53)
+        {
+            iscount = true;
+        }
+        else
+        {
+            iscount = false;
         }
     }
 

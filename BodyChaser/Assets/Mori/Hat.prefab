@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2648499353829092251}
   - component: {fileID: 7178139777201064853}
   - component: {fileID: 4478176605013098697}
+  - component: {fileID: 4704400586464228376}
   m_Layer: 0
   m_Name: Hat
   m_TagString: Obstacle
@@ -130,3 +131,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 8.477302, y: 9.588517}
   m_EdgeRadius: 0
+--- !u!114 &4704400586464228376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6002880718635631260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adc34ba56a6ff9642a725971159b7a2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 3
+  count: 0
