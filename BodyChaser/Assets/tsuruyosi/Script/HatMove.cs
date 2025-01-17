@@ -4,19 +4,23 @@ using UnityEngine;
 
 public class HatMove : MonoBehaviour
 {
+    PlayerMovement playerMovement;
+
     public float moveSpeed = 3f;  // 敵の移動速度
     private Vector2 movementDirection = Vector2.left;  // 左方向に動く
+
+    float Speedcount;
 
     //Hatを消す間隔
     public float count;
 
-    // Start is called before the first frame update
     void Start()
     {
-        
+        GameObject player = GameObject.FindWithTag("Player");
+        playerMovement = player.GetComponent<PlayerMovement>();
+
     }
 
-    // Update is called once per frame
     void Update()
     {
         transform.Translate(movementDirection * moveSpeed * Time.deltaTime);
@@ -25,6 +29,18 @@ public class HatMove : MonoBehaviour
         {
             Destroy(gameObject);
             count = 0;
+        }
+    }
+
+    //当たった時Playerのスピードが下がる処理
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        playerMovement.moveSpeed = 3f;
+        Speedcount += Time.deltaTime;
+        if(Speedcount >= 3)
+        {
+            playerMovement.moveSpeed = 5f;
+            Speedcount = 0;
         }
     }
 }
