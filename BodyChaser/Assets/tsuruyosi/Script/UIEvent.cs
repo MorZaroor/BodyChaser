@@ -36,6 +36,7 @@ public class UIEvent : MonoBehaviour
         {
             //objct•\Ž¦
             objectToShow.SetActive(true);
+            Debug.Log("Show");
             UIFlashing();
         }
         else if (gameovercount.iscount == false)

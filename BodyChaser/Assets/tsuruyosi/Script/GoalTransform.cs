@@ -25,7 +25,7 @@ public class GoalTransform : MonoBehaviour
     void Update()
     {
         right_pos = right.transform.position;
-        this.transform.DOMove(new Vector3(right_pos.x, 0f, 0f), 85f);
+        this.transform.DOMove(new Vector3(right_pos.x, -4.4f, 0f), 85f);
     }
 
     //UpdateÇÃíÜêg
@@ -51,7 +51,7 @@ public class GoalTransform : MonoBehaviour
 
     private void SecondLocation()
     {
-        this.transform.DOMove(new Vector3(right_pos.x,0f,0f),20f);
+        this.transform.DOMove(new Vector3(right_pos.x,-4.4f,0f),20f);
     }
 
     private void GoalPos()
