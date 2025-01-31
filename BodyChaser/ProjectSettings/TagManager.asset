@@ -56,9 +56,6 @@ TagManager:
   - name: "\u30B9\u30D4\u30FC\u30C9\u30D1\u30E9\u30E1\u30FC\u30BF\u30FC02"
     uniqueID: 4073178017
     locked: 0
-  - name: "\u30D7\u30EC\u30A4\u30E4\u30FC"
-    uniqueID: 2230415543
-    locked: 0
   - name: UI
     uniqueID: 4044017831
     locked: 0
@@ -67,4 +64,7 @@ TagManager:
     locked: 0
   - name: "\u30A2\u30A4\u30C6\u30E0"
     uniqueID: 196021819
+    locked: 0
+  - name: "\u30D7\u30EC\u30A4\u30E4\u30FC"
+    uniqueID: 2230415543
     locked: 0

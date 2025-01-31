@@ -5,21 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/rakougetu/scenes/start.unity
     guid: 93df53c7952f3a94386ae7488325a6bc
   - enabled: 1
+    path: Assets/Mori/Scene/MoriScene.unity
+    guid: f6716afc71d9206438e2aa2a61d9ed27
+  - enabled: 0
     path: Assets/rakougetu/scenes/gaming.unity
     guid: 7381cd05185a624478b8e6540a84d5fe
-  - enabled: 0
-    path: Assets/tsruyosi/Scene/TsuruyosiScene.unity
-    guid: d3a65168d2ac49c458c35beb308c85d1
-  - enabled: 0
-    path: Assets/tsruyosi/Scene/GameOver.unity
-    guid: 657b071bfd1ece84da5cb887dc25aeee
   - enabled: 1
     path: Assets/tsuruyosi/Scene/TsuruyosiScene.unity
     guid: c0e80e6fd097f9c4bb6059e01b1010ad

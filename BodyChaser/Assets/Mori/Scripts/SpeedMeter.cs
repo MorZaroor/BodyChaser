@@ -25,9 +25,11 @@ public class SpeedMeter : MonoBehaviour
     private float baseSpeed;
     private float normalMeterIncreasePerMash;
     private bool isSpeedBoosted = false;
+    private LevelManager levelManager;
 
     private void Start()
     {
+        levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
         baseSpeed = playerScript._Yoko_speed;
         normalMeterIncreasePerMash = meterIncreasePerMash;
     }
@@ -42,7 +44,7 @@ public class SpeedMeter : MonoBehaviour
 
     private void CheckSpacebarMash()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && levelManager.gameStarted)
         {
             currentRotation -= meterIncreasePerMash;
         }

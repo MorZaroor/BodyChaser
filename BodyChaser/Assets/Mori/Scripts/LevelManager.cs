@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using System.Collections;
 
 public class LevelManager : MonoBehaviour
 {
@@ -12,20 +14,19 @@ public class LevelManager : MonoBehaviour
     private float totalLevelWidth;
     private Vector3 initialPlayerPosition;
 
+    public TextMeshProUGUI countdownText; // Reference to the UI Text component for the countdown
+    public bool gameStarted = false;
+
     void Start()
     {
         GenerateLevel();
         initialPlayerPosition = player.position;
+        StartCoroutine(StartCountdown());
     }
 
     void Update()
     {
-        // Check if player has reached the end
-        if (player.position.x - initialPlayerPosition.x >= totalLevelWidth - sectionWidth)
-        {
-            Debug.Log("Reached the end of the level!");
-            // You can add end-of-level logic here
-        }
+
     }
 
     void GenerateLevel()
@@ -41,5 +42,24 @@ public class LevelManager : MonoBehaviour
         }
 
         totalLevelWidth = currentX;
+    }
+
+    IEnumerator StartCountdown()
+    {
+        Time.timeScale = 0; // Pause the game
+        countdownText.gameObject.SetActive(true);
+
+        for (int i = 3; i > 0; i--)
+        {
+            countdownText.text = i.ToString();
+            yield return new WaitForSecondsRealtime(1f);
+        }
+
+        countdownText.text = "GO!";
+        yield return new WaitForSecondsRealtime(1f);
+
+        countdownText.gameObject.SetActive(false);
+        Time.timeScale = 1; // Resume the game
+        gameStarted = true;
     }
 }
