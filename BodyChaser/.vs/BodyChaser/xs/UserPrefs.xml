@@ -1,24 +1,30 @@
 ﻿<Properties StartupConfiguration="{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|">
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="05adccc7-8085-4860-aec1-12332afb62ed" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Mori/PlayerMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Mori/Scripts/HatEvent.cs">
     <Files>
-      <File FileName="Assets/Mori/PlayerMovement.cs" Line="3" Column="1" />
-      <File FileName="Assets/Mori/CameraFollow.cs" Line="41" Column="2" />
+      <File FileName="Assets/Mori/Scripts/HatMovement.cs" Line="35" Column="42" />
+      <File FileName="Assets/Mori/Scripts/HatEvent.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="BodyChaser" expanded="True" selected="True">
-            <Node name="Assets" expanded="True" />
+          <Node name="BodyChaser">
+            <Node name="Assets" expanded="True">
+              <Node name="Mori" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="HatEvent.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="27003599-f8a5-43a8-9481-a9a750f68759" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

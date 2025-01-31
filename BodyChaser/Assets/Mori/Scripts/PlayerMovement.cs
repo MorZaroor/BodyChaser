@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerMovement1 : MonoBehaviour //name change
+public class PlayerMovement : MonoBehaviour
 {
     [SerializeField, Header("�c�̈ړ����x")]
     private float _Tate_speed;
