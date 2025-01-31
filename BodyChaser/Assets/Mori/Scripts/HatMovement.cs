@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HatMove : MonoBehaviour
+public class HatMovement : MonoBehaviour
 {
     PlayerMovement playerMovement;
 
-    public float moveSpeed = 3f;  // 敵の移動速度
-    private Vector2 movementDirection = Vector2.left;  // 左方向に動く
+    public float moveSpeed = 3f;  // �G�̈ړ����x
+    private Vector2 movementDirection = Vector2.left;  // �������ɓ���
 
     float Speedcount;
 
-    //Hatを消す間隔
+    //Hat�������Ԋu
     public float count;
 
     void Start()
@@ -32,15 +32,4 @@ public class HatMove : MonoBehaviour
         }
     }
 
-    //当たった時Playerのスピードが下がる処理
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        playerMovement._Yoko_speed = 3f;
-        Speedcount += Time.deltaTime;
-        if(Speedcount >= 3)
-        {
-            playerMovement._Yoko_speed = 5f;
-            Speedcount = 0;
-        }
-    }
 }

@@ -11,7 +11,7 @@ public class SpeedMeter : MonoBehaviour
         Boost
     }
 
-    [SerializeField] private PlayerMovement1 playerScript; //name change
+    [SerializeField] private PlayerMovement playerScript;
     [SerializeField] private Transform needleTransform;
     [SerializeField] private float meterIncreasePerMash = 2.5f;
     [SerializeField] private float meterDecreaseRate = 2f; // Rate at which the meter decreases per second

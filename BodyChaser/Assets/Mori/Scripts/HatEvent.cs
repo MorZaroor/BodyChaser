@@ -46,8 +46,7 @@ public class HatEvent : MonoBehaviour
     public void Hatmanage()
     {
         //PlayerのY座標に合わせて生成
-        Vector3 play = GameObject.Find("Player").transform.position;
-        play_y = play.y;
-        Instantiate(hatPrefab, new Vector3(8.0f, play_y, 0.0f), Quaternion.identity);
+        Vector3 playerObj = GameObject.Find("Player").transform.position;
+        Instantiate(hatPrefab, new Vector3(playerObj.x + 35f, playerObj.y, 0.0f), Quaternion.identity);
     }
 }

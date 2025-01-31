@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2648499353829092251}
   - component: {fileID: 7178139777201064853}
   - component: {fileID: 4478176605013098697}
-  - component: {fileID: 4704400586464228376}
+  - component: {fileID: 4473213722745491142}
   m_Layer: 0
   m_Name: Hat
   m_TagString: Obstacle
@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 12.69, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -72,8 +72,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -726540107
-  m_SortingLayer: 5
+  m_SortingLayerID: 322057137
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 294787296b20b4e1b846ad44ed5aa833, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -118,20 +118,20 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.31235933, y: -0.4367528}
+  m_Offset: {x: 0.11570883, y: -0.015358686}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 14.78, y: 13.15}
+    oldSize: {x: 4.9266667, y: 4.383333}
     newSize: {x: 2.49, y: 2.87}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 8.477302, y: 9.588517}
+  m_Size: {x: 3.0272722, y: 3.4642591}
   m_EdgeRadius: 0
---- !u!114 &4704400586464228376
+--- !u!114 &4473213722745491142
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6002880718635631260}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: adc34ba56a6ff9642a725971159b7a2e, type: 3}
+  m_Script: {fileID: 11500000, guid: e0d024abd59654d468b5500ff856c7bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
