@@ -83,6 +83,6 @@ public class GameManager : MonoBehaviour
     // 返回标题场景
     public void ReturnToTitle()
     {
-        SceneManager.LoadScene("start");
+        SceneManager.LoadScene("startv2");
     }
 }

@@ -12,10 +12,12 @@ public class PlayerDamageHandler : MonoBehaviour
     private bool isDamaged = false;
     private SpriteRenderer spriteRenderer;
     public SpeedMeter speedMeter;
+    private Animator animator;
 
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -31,6 +33,7 @@ public class PlayerDamageHandler : MonoBehaviour
         Debug.Log("Player took damage!");
         speedMeter.HitObstacle();
         isDamaged = true;
+        animator.SetBool("Damaged", true);
         StartCoroutine(InvincibilityCoroutine(invincibilityDuration));
     }
 
@@ -74,5 +77,6 @@ public class PlayerDamageHandler : MonoBehaviour
         spriteRenderer.enabled = true;
         isInvincible = false;
         isDamaged = false;
+        animator.SetBool("Damaged", false);
     }
 }
