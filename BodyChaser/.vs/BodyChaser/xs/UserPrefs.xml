@@ -1,19 +1,23 @@
 ﻿<Properties StartupConfiguration="{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Mori/Scripts/HatEvent.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Mori/Scripts/PlayerDamageHandler.cs">
     <Files>
-      <File FileName="Assets/Mori/Scripts/HatMovement.cs" Line="35" Column="42" />
-      <File FileName="Assets/Mori/Scripts/HatEvent.cs" Line="1" Column="1" />
+      <File FileName="Assets/Mori/Scripts/HatMovement.cs" Line="34" Column="1" />
+      <File FileName="Assets/Mori/Scripts/HatEvent.cs" Line="49" Column="74" />
+      <File FileName="Assets/tsuruyosi/Script/HatMove.cs" Line="42" Column="39" />
+      <File FileName="Assets/Mori/Scripts/ItemPickup.cs" Line="26" Column="59" />
+      <File FileName="Assets/Mori/Scripts/PlayerDamageHandler.cs" Line="47" Column="43" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="BodyChaser">
+          <Node name="BodyChaser" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Mori" expanded="True">
-                <Node name="Scripts" expanded="True">
-                  <Node name="HatEvent.cs" selected="True" />
-                </Node>
+                <Node name="Scripts" expanded="True" />
+              </Node>
+              <Node name="tsuruyosi" expanded="True">
+                <Node name="Script" expanded="True" />
               </Node>
             </Node>
           </Node>

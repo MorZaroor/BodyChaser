@@ -86,7 +86,6 @@
     <Compile Include="Assets/tsuruyosi/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs" />
     <Compile Include="Assets/Mori/Scripts/ItemPickup.cs" />
     <Compile Include="Assets/HIroki/Script/SpeedParameter.cs" />
-    <Compile Include="Assets/Mori/Scripts/ObstacleManager.cs" />
     <Compile Include="Assets/tsuruyosi/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" />
     <Compile Include="Assets/Mori/Scripts/GoalIndicator.cs" />
     <Compile Include="Assets/Mori/Scripts/GoalManager.cs" />

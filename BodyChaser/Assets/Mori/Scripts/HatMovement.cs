@@ -32,15 +32,4 @@ public class HatMovement : MonoBehaviour
         }
     }
 
-    //����������Player�̃X�s�[�h�������鏈��
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        playerMovement._Yoko_speed = 3f;
-        Speedcount += Time.deltaTime;
-        if(Speedcount >= 3)
-        {
-            playerMovement._Yoko_speed = 5f;
-            Speedcount = 0;
-        }
-    }
 }
