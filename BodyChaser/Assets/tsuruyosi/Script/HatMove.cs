@@ -6,12 +6,12 @@ public class HatMove : MonoBehaviour
 {
     PlayerMovement playerMovement;
 
-    public float moveSpeed = 3f;  // “G‚ÌˆÚ“®‘¬“x
-    private Vector2 movementDirection = Vector2.left;  // ¶•ûŒü‚É“®‚­
+    public float moveSpeed = 3f;  // æ•µã®ç§»å‹•é€Ÿåº¦
+    private Vector2 movementDirection = Vector2.left;  // å·¦æ–¹å‘ã«å‹•ã
 
     float Speedcount;
 
-    //Hat‚ðÁ‚·ŠÔŠu
+    //Hatã‚’æ¶ˆã™é–“éš”
     public float count;
 
     void Start()
@@ -32,14 +32,14 @@ public class HatMove : MonoBehaviour
         }
     }
 
-    //“–‚½‚Á‚½ŽžPlayer‚ÌƒXƒs[ƒh‚ª‰º‚ª‚éˆ—
+    //å½“ãŸã£ãŸæ™‚Playerã®ã‚¹ãƒ”ãƒ¼ãƒ‰ãŒä¸‹ãŒã‚‹å‡¦ç†
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        playerMovement.moveSpeed = 3f;
+        playerMovement._Yoko_speed = 3f;
         Speedcount += Time.deltaTime;
         if(Speedcount >= 3)
         {
-            playerMovement.moveSpeed = 5f;
+            playerMovement._Yoko_speed = 5f;
             Speedcount = 0;
         }
     }
