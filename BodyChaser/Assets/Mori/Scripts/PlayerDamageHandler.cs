@@ -9,6 +9,7 @@ public class PlayerDamageHandler : MonoBehaviour
     private float flickerInterval = 0.1f;
 
     private bool isInvincible = false;
+    private bool isDamaged = false;
     private SpriteRenderer spriteRenderer;
     public SpeedMeter speedMeter;
 
@@ -29,6 +30,7 @@ public class PlayerDamageHandler : MonoBehaviour
     {
         Debug.Log("Player took damage!");
         speedMeter.HitObstacle();
+        isDamaged = true;
         StartCoroutine(InvincibilityCoroutine(invincibilityDuration));
     }
 
@@ -41,6 +43,10 @@ public class PlayerDamageHandler : MonoBehaviour
         else
         {
             StopAllCoroutines();
+            spriteRenderer.color = Color.white;
+            spriteRenderer.enabled = true;
+            isInvincible = false;
+            isDamaged = false;
             StartCoroutine(InvincibilityCoroutine(duration));
         }
     }
@@ -52,12 +58,21 @@ public class PlayerDamageHandler : MonoBehaviour
 
         while (elapsedTime < duration)
         {
-            spriteRenderer.enabled = !spriteRenderer.enabled;
+            if (isDamaged)
+            {
+                spriteRenderer.enabled = !spriteRenderer.enabled;
+            }
+            else
+            {
+                spriteRenderer.color = new Color(1f, 1f, 1f, 0.35f);
+            }
+
             yield return new WaitForSeconds(flickerInterval);
             elapsedTime += flickerInterval;
         }
-
+        spriteRenderer.color = Color.white;
         spriteRenderer.enabled = true;
         isInvincible = false;
+        isDamaged = false;
     }
 }
