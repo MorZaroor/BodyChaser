@@ -5,7 +5,7 @@
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-
+.vs/
 # macOS generated
 .DS_Store
 ._*

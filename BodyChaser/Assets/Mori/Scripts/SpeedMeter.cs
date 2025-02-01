@@ -26,12 +26,14 @@ public class SpeedMeter : MonoBehaviour
     private float normalMeterIncreasePerMash;
     private bool isSpeedBoosted = false;
     private LevelManager levelManager;
+    private AudioManager audioManager;
 
     private void Start()
     {
         levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
         baseSpeed = playerScript._Yoko_speed;
         normalMeterIncreasePerMash = meterIncreasePerMash;
+        audioManager = FindObjectOfType<AudioManager>();
     }
 
     private void Update()
@@ -123,6 +125,7 @@ public class SpeedMeter : MonoBehaviour
 
     public void ActivateSpeedBoost(float duration)
     {
+        audioManager.PlaySFX(audioManager.speedSound);
         if (!isSpeedBoosted)
         {
             StartCoroutine(SpeedBoostCoroutine(duration));

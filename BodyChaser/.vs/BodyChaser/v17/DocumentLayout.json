@@ -1,21 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\",
+  "WorkspaceRootPath": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\assets\\tsuruyosi\\script\\goaltransform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|f:\\school\\fridaygame\\bodychaser\\bodychaser\\assets\\rin\\0\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|solutionrelative:assets\\rin\\0\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\assets\\mori\\scripts\\playerdamagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|solutionrelative:assets\\mori\\scripts\\playerdamagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\assets\\mori\\scripts\\playmathv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|solutionrelative:assets\\mori\\scripts\\playmathv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\assets\\mori\\scripts\\uimanagerv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|solutionrelative:assets\\mori\\scripts\\uimanagerv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\assets\\rakougetu\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|solutionrelative:assets\\rakougetu\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\assets\\tsuruyosi\\script\\goaltransform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|solutionrelative:assets\\tsuruyosi\\script\\goaltransform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\bodychaser\\bodychaser\\assets\\tsuruyosi\\plugins\\demigiant\\dotween\\dotween.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\assets\\tsuruyosi\\plugins\\demigiant\\dotween\\dotween.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
       "RelativeMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|solutionrelative:assets\\tsuruyosi\\plugins\\demigiant\\dotween\\dotween.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\assets\\tsuruyosi\\script\\gameclear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\assets\\tsuruyosi\\script\\gameclear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|solutionrelative:assets\\tsuruyosi\\script\\gameclear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\assets\\tsuruyosi\\script\\gameovercount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\assets\\tsuruyosi\\script\\gameovercount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|solutionrelative:assets\\tsuruyosi\\script\\gameovercount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,26 +46,87 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\Rin\\0\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Rin\\0\\GameManager.cs",
+              "ToolTip": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\Rin\\0\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Rin\\0\\GameManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T13:26:04.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PlayerDamageHandler.cs",
+              "DocumentMoniker": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\Mori\\Scripts\\PlayerDamageHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Mori\\Scripts\\PlayerDamageHandler.cs",
+              "ToolTip": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\Mori\\Scripts\\PlayerDamageHandler.cs",
+              "RelativeToolTip": "Assets\\Mori\\Scripts\\PlayerDamageHandler.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAIwBgAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T13:21:44.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UIManagerv2.cs",
+              "DocumentMoniker": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\Mori\\Scripts\\UIManagerv2.cs",
+              "RelativeDocumentMoniker": "Assets\\Mori\\Scripts\\UIManagerv2.cs",
+              "ToolTip": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\Mori\\Scripts\\UIManagerv2.cs",
+              "RelativeToolTip": "Assets\\Mori\\Scripts\\UIManagerv2.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T12:54:01.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayMathv2.cs",
+              "DocumentMoniker": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\Mori\\Scripts\\PlayMathv2.cs",
+              "RelativeDocumentMoniker": "Assets\\Mori\\Scripts\\PlayMathv2.cs",
+              "ToolTip": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\Mori\\Scripts\\PlayMathv2.cs",
+              "RelativeToolTip": "Assets\\Mori\\Scripts\\PlayMathv2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T12:44:01.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\rakougetu\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\rakougetu\\UIManager.cs",
+              "ToolTip": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\rakougetu\\UIManager.cs",
+              "RelativeToolTip": "Assets\\rakougetu\\UIManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T12:01:11.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "DOTween.dll",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Plugins\\Demigiant\\DOTween\\DOTween.dll",
+              "DocumentMoniker": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Plugins\\Demigiant\\DOTween\\DOTween.dll",
               "RelativeDocumentMoniker": "Assets\\tsuruyosi\\Plugins\\Demigiant\\DOTween\\DOTween.dll",
-              "ToolTip": "C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Plugins\\Demigiant\\DOTween\\DOTween.dll",
+              "ToolTip": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Plugins\\Demigiant\\DOTween\\DOTween.dll",
               "RelativeToolTip": "Assets\\tsuruyosi\\Plugins\\Demigiant\\DOTween\\DOTween.dll",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
               "WhenOpened": "2024-11-23T06:22:39.043Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "GameClear.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Script\\GameClear.cs",
+              "DocumentMoniker": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Script\\GameClear.cs",
               "RelativeDocumentMoniker": "Assets\\tsuruyosi\\Script\\GameClear.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Script\\GameClear.cs",
+              "ToolTip": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Script\\GameClear.cs",
               "RelativeToolTip": "Assets\\tsuruyosi\\Script\\GameClear.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -53,11 +134,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "GameOverCount.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Script\\GameOverCount.cs",
+              "DocumentMoniker": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Script\\GameOverCount.cs",
               "RelativeDocumentMoniker": "Assets\\tsuruyosi\\Script\\GameOverCount.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Script\\GameOverCount.cs",
+              "ToolTip": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Script\\GameOverCount.cs",
               "RelativeToolTip": "Assets\\tsuruyosi\\Script\\GameOverCount.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAA8wAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -65,16 +146,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "GoalTransform.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Script\\GoalTransform.cs",
+              "DocumentMoniker": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Script\\GoalTransform.cs",
               "RelativeDocumentMoniker": "Assets\\tsuruyosi\\Script\\GoalTransform.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Script\\GoalTransform.cs",
+              "ToolTip": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Script\\GoalTransform.cs",
               "RelativeToolTip": "Assets\\tsuruyosi\\Script\\GoalTransform.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAgAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T08:56:38.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T08:56:38.741Z"
             }
           ]
         }

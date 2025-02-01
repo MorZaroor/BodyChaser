@@ -13,11 +13,13 @@ public class PlayerDamageHandler : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     public SpeedMeter speedMeter;
     private Animator animator;
+    private AudioManager audioManager;
 
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        audioManager = FindObjectOfType<AudioManager>();
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -31,6 +33,7 @@ public class PlayerDamageHandler : MonoBehaviour
     void TakeDamage()
     {
         Debug.Log("Player took damage!");
+        audioManager.PlaySFX(audioManager.hitSound);
         speedMeter.HitObstacle();
         isDamaged = true;
         animator.SetBool("Damaged", true);
@@ -58,6 +61,10 @@ public class PlayerDamageHandler : MonoBehaviour
     {
         isInvincible = true;
         float elapsedTime = 0f;
+        if (!isDamaged)
+        {
+            audioManager.PlaySFX(audioManager.invincibleSound);
+        }
 
         while (elapsedTime < duration)
         {

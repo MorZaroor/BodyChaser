@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
-using System.Runtime.CompilerServices;
+using System.Collections;
 
 public class GoalManager : MonoBehaviour
 {
@@ -14,12 +14,17 @@ public class GoalManager : MonoBehaviour
     private float currentSpeed;
     public float timer;
     public bool iscount = false;
+    private Coroutine alarmCoroutine;
+    private bool bgmChanged = false;
     public TextMeshProUGUI timerText;
+    private AudioManager audioManager;
 
     void Start()
     {
+        audioManager = FindObjectOfType<AudioManager>();
         currentSpeed = baseSpeed;
         timer = gameTime;
+        alarmCoroutine = StartCoroutine(PlayAlarmAt53Seconds());
     }
 
     void Update()
@@ -38,14 +43,16 @@ public class GoalManager : MonoBehaviour
         {
             GameOver();
         }
-        if (timer >= 50 && timer <= 53)
-        {
-            iscount = true;
-        }
-        else
-        {
-            iscount = false;
-        }
+    }
+
+    IEnumerator PlayAlarmAt53Seconds()
+    {
+        yield return new WaitUntil(() => timer <= 53 && timer > 50);
+        audioManager.ChangeBGM(audioManager.eventSound);
+        iscount = true;
+        yield return new WaitForSeconds(3);
+        iscount = false;
+        audioManager.ChangeBGM(audioManager.midGameBGM);
     }
 
     void GameClear()
