@@ -21,7 +21,7 @@ public class SpeedMeter : MonoBehaviour
     [SerializeField] private float boostSpeedMultiplier = 3f;
 
     private SpeedLevel currentLevel = SpeedLevel.Green;
-    private float currentRotation = 55f;
+    private float currentRotation = 86f;
     private float baseSpeed;
     private float normalMeterIncreasePerMash;
     private bool isSpeedBoosted = false;
@@ -59,7 +59,7 @@ public class SpeedMeter : MonoBehaviour
 
     private void UpdateMeter()
     {
-        currentRotation = Mathf.Clamp(currentRotation, -55f, 55f);
+        currentRotation = Mathf.Clamp(currentRotation, -86f, 86f);
         needleTransform.rotation = Quaternion.Euler(0, 0, currentRotation);
     }
 
@@ -67,15 +67,15 @@ public class SpeedMeter : MonoBehaviour
     {
         SpeedLevel newLevel;
 
-        if (currentRotation <= -53f && isSpeedBoosted)
+        if (currentRotation <= -85f && isSpeedBoosted)
         {
             newLevel = SpeedLevel.Boost;
         }
-        else if (currentRotation <= -17f)
+        else if (currentRotation <= -24f)
         {
             newLevel = SpeedLevel.Red;
         }
-        else if (currentRotation <= 20f)
+        else if (currentRotation <= 26f)
         {
             newLevel = SpeedLevel.Yellow;
         }
@@ -100,11 +100,11 @@ public class SpeedMeter : MonoBehaviour
     {
         if (currentLevel == SpeedLevel.Yellow)
         {
-            currentRotation = 55f;
+            currentRotation = 86f;
         }
         else if (currentLevel == SpeedLevel.Red || currentLevel == SpeedLevel.Boost)
         {
-            currentRotation = 17f;
+            currentRotation = 26f;
         }
         CheckLevelChange();
     }
@@ -140,12 +140,26 @@ public class SpeedMeter : MonoBehaviour
     private IEnumerator SpeedBoostCoroutine(float duration)
     {
         isSpeedBoosted = true;
-        meterIncreasePerMash *= 2;
+        //meterIncreasePerMash *= 2;
+        switch (currentLevel)
+        {
+            case SpeedLevel.Green:
+                currentRotation = 26f;
+                break;
+            case SpeedLevel.Yellow:
+                currentRotation = -24f;
+                break;
+            case SpeedLevel.Red:
+            case SpeedLevel.Boost:
+                currentRotation = -86f;
+                break;
+        }
+
         CheckLevelChange();
 
         yield return new WaitForSeconds(duration);
 
-        meterIncreasePerMash = normalMeterIncreasePerMash;
+        //meterIncreasePerMash = normalMeterIncreasePerMash;
         isSpeedBoosted = false;
         CheckLevelChange();
     }

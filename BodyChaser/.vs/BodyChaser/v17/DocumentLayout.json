@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|f:\\school\\fridaygame\\bodychaser\\bodychaser\\assets\\rin\\0\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|f:\\school\\fridaygame\\bodychaser\\bodychaser\\assets\\mori\\scripts\\speedmeter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|solutionrelative:assets\\mori\\scripts\\speedmeter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\assets\\mori\\scripts\\itempickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|solutionrelative:assets\\mori\\scripts\\itempickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\assets\\mori\\scripts\\goalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|solutionrelative:assets\\mori\\scripts\\goalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\assets\\rin\\0\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|solutionrelative:assets\\rin\\0\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\assets\\mori\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|solutionrelative:assets\\mori\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC7567FC-4A9C-A1AD-6AE5-B01DAE6CD977}|Assembly-CSharp.csproj|F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\assets\\mori\\scripts\\playerdamagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,31 +67,80 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\Rin\\0\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Rin\\0\\GameManager.cs",
-              "ToolTip": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\Rin\\0\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Rin\\0\\GameManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFUAAAAnAAAA",
+              "Title": "SpeedMeter.cs",
+              "DocumentMoniker": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\Mori\\Scripts\\SpeedMeter.cs",
+              "RelativeDocumentMoniker": "Assets\\Mori\\Scripts\\SpeedMeter.cs",
+              "ToolTip": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\Mori\\Scripts\\SpeedMeter.cs",
+              "RelativeToolTip": "Assets\\Mori\\Scripts\\SpeedMeter.cs",
+              "ViewState": "AQIAAIQAAAAAAAAAAADwv50AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T13:26:04.475Z",
+              "WhenOpened": "2025-02-01T11:51:07.584Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ItemPickup.cs",
+              "DocumentMoniker": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\Mori\\Scripts\\ItemPickup.cs",
+              "RelativeDocumentMoniker": "Assets\\Mori\\Scripts\\ItemPickup.cs",
+              "ToolTip": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\Mori\\Scripts\\ItemPickup.cs",
+              "RelativeToolTip": "Assets\\Mori\\Scripts\\ItemPickup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T11:50:04.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GoalManager.cs",
+              "DocumentMoniker": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\Mori\\Scripts\\GoalManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Mori\\Scripts\\GoalManager.cs",
+              "ToolTip": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\Mori\\Scripts\\GoalManager.cs",
+              "RelativeToolTip": "Assets\\Mori\\Scripts\\GoalManager.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAwDEAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T11:45:30.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\Mori\\Scripts\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Mori\\Scripts\\AudioManager.cs",
+              "ToolTip": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\Mori\\Scripts\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\Mori\\Scripts\\AudioManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw4AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T11:37:02.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\Rin\\0\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Rin\\0\\GameManager.cs",
+              "ToolTip": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\Rin\\0\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Rin\\0\\GameManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T13:26:04.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PlayerDamageHandler.cs",
               "DocumentMoniker": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\Mori\\Scripts\\PlayerDamageHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Mori\\Scripts\\PlayerDamageHandler.cs",
               "ToolTip": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\Mori\\Scripts\\PlayerDamageHandler.cs",
               "RelativeToolTip": "Assets\\Mori\\Scripts\\PlayerDamageHandler.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAIwBgAAAA+AAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAcwEMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-31T13:21:44.624Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "UIManagerv2.cs",
               "DocumentMoniker": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\Mori\\Scripts\\UIManagerv2.cs",
               "RelativeDocumentMoniker": "Assets\\Mori\\Scripts\\UIManagerv2.cs",
@@ -87,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "PlayMathv2.cs",
               "DocumentMoniker": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\Mori\\Scripts\\PlayMathv2.cs",
               "RelativeDocumentMoniker": "Assets\\Mori\\Scripts\\PlayMathv2.cs",
@@ -99,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "UIManager.cs",
               "DocumentMoniker": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\rakougetu\\UIManager.cs",
               "RelativeDocumentMoniker": "Assets\\rakougetu\\UIManager.cs",
@@ -111,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "DOTween.dll",
               "DocumentMoniker": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Plugins\\Demigiant\\DOTween\\DOTween.dll",
               "RelativeDocumentMoniker": "Assets\\tsuruyosi\\Plugins\\Demigiant\\DOTween\\DOTween.dll",
@@ -122,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "GameClear.cs",
               "DocumentMoniker": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Script\\GameClear.cs",
               "RelativeDocumentMoniker": "Assets\\tsuruyosi\\Script\\GameClear.cs",
@@ -134,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "GameOverCount.cs",
               "DocumentMoniker": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Script\\GameOverCount.cs",
               "RelativeDocumentMoniker": "Assets\\tsuruyosi\\Script\\GameOverCount.cs",
@@ -146,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "GoalTransform.cs",
               "DocumentMoniker": "F:\\school\\fridaygame\\BodyChaser\\BodyChaser\\Assets\\tsuruyosi\\Script\\GoalTransform.cs",
               "RelativeDocumentMoniker": "Assets\\tsuruyosi\\Script\\GoalTransform.cs",
